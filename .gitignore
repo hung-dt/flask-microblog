@@ -1,0 +1,31 @@
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Python compiled files
+*.pyc
+__pycache__/
+
+# IDE-specific files (e.g., VS Code)
+.vscode/
+
+# Database files (if using SQLite)
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+
+# Flask specific cache files
+instance/
+
+# Others
+.pytest_cache/
+.coverage
+htmlcov/
+
+dist/
+build/
+*.egg-info/
